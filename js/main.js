@@ -9,6 +9,6 @@ checkbox.addEventListener('change', () => {
 
 radiobox.forEach(x => {
 	x.addEventListener('change', () => {
-		console.log(`Выбран вариант: ${x.value}`);
+		console.log(`Choosed option: ${x.value}`);
 	});
 });

@@ -94,11 +94,12 @@ h6 {
 }
 
 html {
-  font-size: 36px;
+  font-size: 20px;
 }
 
 body {
-  font-size: 36px;
+  font-family: sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1;
   color: #333;
@@ -106,9 +107,9 @@ body {
 
 .checkbox {
   display: inline-block;
-  padding: 40px 66px;
+  padding: 1.5rem 3rem;
   margin: 20px;
-  border: 3px solid #333;
+  border: 2px solid #333;
   border-radius: 10px;
   position: relative;
 }
@@ -117,9 +118,33 @@ body {
   content: 'Checkbox';
   display: inline-block;
   padding: 0 10px;
-  font-size: 24px;
+  font-size: 0.8rem;
   background-color: #fff;
   position: absolute;
   top: -0.5em;
   left: 20px;
+}
+
+.radio {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: relative;
+}
+
+.radio::before {
+  content: 'Radiobox';
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  background-color: #fff;
+  position: absolute;
+  top: -0.5em;
+  left: 20px;
+}
+
+.radio__item {
+  margin-bottom: 10px;
 }
